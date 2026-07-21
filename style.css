@@ -2,7 +2,7 @@
 
 .navbar {
   background: transparent;
-  transition: .8s;
+  transition: .3s;
 }
 
 .navbar.scrolled {
@@ -50,8 +50,8 @@
 
 }
 .hero-btn{
-        margin-left: 175px;
-
+    display: block;
+    margin-left: 175px;
 }
 .cont-btn{
     margin-left: 10px;
@@ -190,6 +190,66 @@ padding: 80px 0;
     padding-left: 5px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+@media (max-width:768px){
+    .long{
+        font-size: 30px;
+    }
+    .gray{
+        font-size: 18px;
+    }
+    .feature-list{
+        padding-left: 0;
+    }
+
+    .feature-list li{
+        gap: 15px;
+    }
+
+    .about p{
+        color:rgb(121, 121, 121);
+    }
+    .about h2{
+    color:white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    .hero-btn{
+        display: block;
+        width: 90%;
+        max-width: 280px;
+        margin: 20px auto;    
+    }
+.wel{
+    color:#ffc107;
+    font-size: 40px;
+
+}
+.hero-content h1{
+        font-size: 35px;
+
+}
+.hero-content h2{
+    font-size: 14px;
+    font-weight: 100;
+
+}
+.about strong{
+    font-size: 15px;
+    padding: 0;
+
+}
+.contact .email{
+    margin-top: 20px !important;
+}
+.feature-list p{
+    padding:0;
+}
+.italy{
+    color:#ffc107
+}
+}
+
 .card-body{
 background-color: rgb(23, 23, 23);
 font-family:Georgia, 'Times New Roman', Times, serif;
@@ -304,11 +364,12 @@ padding: 30px 30px;
         padding-bottom: 15px;
     }
 
+
     .food-img{
         width: 65px;
         height: 65px;
         position: relative;
-        top: -8px;
+        top: 10px;
     }
 
     .menu-header{
@@ -319,6 +380,10 @@ padding: 30px 30px;
 
     .food-des{
         min-height: auto;
+        padding-bottom: 5px;
+    }
+    .food{
+        margin-top: 19px;
     }
 }
 
