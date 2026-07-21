@@ -1,11 +1,10 @@
 # Italian Restaurant Landing Page
 
-A modern and responsive Italian restaurant landing page built using HTML5, CSS3, Bootstrap 5, and JavaScript. The project focuses on creating an elegant user interface, responsive design, and an engaging browsing experience.
+A modern Italian restaurant landing page built using HTML5, CSS3, Bootstrap 5, and JavaScript. This project focuses on creating an elegant user interface and an engaging browsing experience.
 
 ## Features
 
-- Responsive design for desktop, tablet, and mobile
-- Hero section
+- Modern hero section
 - About section
 - Interactive menu filtering
 - Events carousel
