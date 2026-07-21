@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: solid 1px rgb(16, 16, 16);
 
     }
@@ -189,7 +189,7 @@ padding: 80px 0;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-@media (max-width:768px){
+@media (max-width:768px)and (max-width: 1024px){
     .long{
         font-size: 30px;
     }
@@ -231,7 +231,10 @@ padding: 80px 0;
 
 }
 .hero-content{
-    padding-top: 300px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
 }
 .hero-content h1{
         font-size: 40px;
