@@ -208,6 +208,12 @@ padding: 80px 0;
     .about p{
         color:rgb(121, 121, 121);
     }
+    .cont-btn{
+        display: block;
+        width: 150px;
+    margin: 20px auto;
+
+}
     .about h2{
     color:white;
     font-size: 35px;
@@ -220,10 +226,12 @@ padding: 80px 0;
         margin: 20px auto;    
     }
 .wel{
-    padding-top: 20px;
     color:#ffc107;
     font-size: 55px;
 
+}
+.hero-content{
+    padding-top: 300px;
 }
 .hero-content h1{
         font-size: 40px;
