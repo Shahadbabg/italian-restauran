@@ -104,7 +104,6 @@ a:focus{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   min-height: 100vh;
 padding: 80px 0;
 
 }
@@ -649,7 +648,7 @@ border-right: none;
 }
 .team{
     background-color:rgb(16, 16, 16);
-    min-height: 100vh;
+    padding-bottom: 25px;
 }
 .chef-info{
     position: absolute;
